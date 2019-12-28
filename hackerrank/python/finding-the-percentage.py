@@ -13,6 +13,4 @@ if __name__ == '__main__':
         scores = list(map(float, line))
         student_marks[name] = scores
     query_name = input()
-# "{:10.4f}".format(x)
-t = "{:0.2f}".format(  reduce(lambda x,y: x+y, student_marks[query_name]) / 3 )
-print(t)
+    print("{:0.2f}".format(reduce(lambda x,y: x+y, student_marks[query_name]) / 3 ))
