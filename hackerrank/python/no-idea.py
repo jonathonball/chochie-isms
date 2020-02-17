@@ -31,8 +31,6 @@ def sum_counts(values, data):
     return sum
 
 N, M = strings_to_int(input().strip().split())
-print("N", N)
-print("M", M)
 DATA = distinct_num_counts(strings_to_int(input().strip().split()))
 A = list_to_set(strings_to_int(input().strip().split()))
 B = list_to_set(strings_to_int(input().strip().split()))
